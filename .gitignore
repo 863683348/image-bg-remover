@@ -1,6 +1,25 @@
+﻿# dependencies
 node_modules/
-server.js
-server.log
-.wrangler/
-.DS_Store
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+
+# env
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# logs
 *.log
+npm-debug.log*
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+server.js
