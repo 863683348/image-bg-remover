@@ -1,0 +1,14 @@
+{
+  "name": "image-bg-remover",
+  "version": "1.0.0",
+  "description": "在线去背景工具 - 基于 Remove.bg API",
+  "scripts": {
+    "dev": "wrangler pages dev . --live-reload",
+    "deploy": "wrangler pages deploy . --project-name image-bg-remover",
+    "preview": "wrangler pages dev .",
+    "deploy:worker": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
